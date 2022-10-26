@@ -1,8 +1,8 @@
-print("digite o primeiro número")
+print("digite o primeiro número ")
 
 N1 = input(int())
 
-print("digite o primeiro número")
+print("digite o segundo número ")
 
 N2 = input(int())
 
@@ -13,9 +13,9 @@ divisao = int(N1) / int(N2)
 restodadivisao = int(N1) % int(N2)
 exponencial = int(N1) ** int(N2)
 
-print("o resultado da soma é" + str(soma))
-print("o resultado da subtracao é" + str(soma))
-print("o resultado da multiplicacao é" + str(soma))
-print("o resultado da divisao é" + str(soma))
-print("o resultado da restodadivisao é" + str(soma))
-print("o resultado da exponencial é" + str(soma))
+print("o resultado da soma é " + str(soma))
+print("o resultado da subtracao é " + str(subtracao))
+print("o resultado da multiplicacao é " + str(multiplicacao))
+print("o resultado da divisao é " + str(divisao))
+print("o resultado da restodadivisao é " + str(restodadivisao))
+print("o resultado da exponencial é " + str(exponencial))
