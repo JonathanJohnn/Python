@@ -12,16 +12,19 @@ while (finalizar != "s"):
     if (acao == "+"):
         print(num1, "+", num2, "=", num1 + num2)
         finalizar = input("deseja sair da calculadora? s/n? ")
+
     elif (acao == "-"):
         print(num1, "-", num2, "=", num1 - num2)
         finalizar = input("deseja sair da calculadora? s/n? ")
+
     elif (acao == "*"):
         print(num1, "*", num2, "=", num1 * num2)
         finalizar = input("deseja sair da calculadora? s/n? ")
+
     elif (acao == "/"):
         print(num1, "/", num2, "=", num1 / num2)
         finalizar = input("deseja sair da calculadora? s/n? ")
+
     else :
         print("operação invalida")
         finalizar = input("deseja sair da calculadora? s/n? ")
-

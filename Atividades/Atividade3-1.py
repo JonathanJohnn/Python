@@ -8,9 +8,12 @@ turno = input("Informe o turno ao qual você estuda (M para Matutino, V para Ves
 match turno:
     case ("M"):
         print("Bom Dia!")
+
     case ("V"):
         print("Boa Tarde!")
+
     case ("N"):
         print("Boa Noite!")
+
     case _:
         print("valor Invalido")
